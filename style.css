@@ -2,18 +2,32 @@
 h1,h2,h3,h4,h5,h6{
     font-family: 'Fjalla One', sans-serif;
 }
-
+h1{
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;  
+    text-align: center;
+    margin: 0px 0px 40px 0px; 
+}
 h2{
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    
 }
 p{
     font-family: 'Lato', sans-serif;
     font-size: 12px;
-    line-height: 20px;
+    line-height: 25px;
     width: 500px;
     text-align: justify;
+    margin-bottom: 30px;
 }
-body{
-    margin: 0 auto;}
+.content {
+    max-width: 500px;
+    margin: auto;
+}
+.klaartje{
+    width: 500px;
+    height: auto;
+}
